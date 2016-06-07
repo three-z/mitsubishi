@@ -1,0 +1,12 @@
+$base-font-family: 'dindisplay-regular', Arial, sans-serif;
+$base-font-size: 16px;
+$base-line-height: 20px;
+
+$heading-font-family: 'alphaheadlineregular', Arial, sans-serif;
+
+$large-break: 860px;
+$medium-break: 640px;
+$small-break: 480px;
+$large-screen: "only screen and (max-width: #{$large-break})";
+$medium-screen: "only screen and (max-width: #{$medium-break})";
+$small-screen: "only screen and (max-width: #{$small-break})";
