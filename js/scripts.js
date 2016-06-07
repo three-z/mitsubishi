@@ -1,13 +1,6 @@
 $(document).ready(function() {
 
-	$('.form select').on('change', function() {
-		if ($(this).val() == '0') {
-			$(this).removeClass('no-placeholder');
-		}
-		else {
-			$(this).addClass('no-placeholder');
-		}
-	});
+	$('.form select').styler();
 
 	$('.service-select-tabs a').on('click', function(e) {
 		e.preventDefault();
@@ -22,6 +15,4 @@ $(document).ready(function() {
 
 		$(this).closest('li').toggleClass('active');
 	});
-
-
 });

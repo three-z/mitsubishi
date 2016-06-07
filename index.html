@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title></title>
 	<link rel="stylesheet" href="fonts/fonts.css">
-	<link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+	<link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+	<link rel="stylesheet" href="bower_components/jquery.form-styler/jquery.formstyler.css" />
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -23,24 +24,24 @@
 				</div>
 				<div class="form-line -year">
 					<div class="form-element form-select">
-						<select>
-							<option value="0" disabled selected hidden>Год</option>
+						<select data-placeholder="Год">
+							<option></option>
 							<option value="">2016</option>
 						</select>
 					</div>
 				</div>
 				<div class="form-line -type">
 					<div class="form-element form-select">
-						<select>
-							<option value="0" disabled selected hidden>Тип привода</option>
+						<select data-placeholder="Тип привода">
+							<option></option>
 							<option value="">Полный</option>
 						</select>
 					</div>
 				</div>
 				<div class="form-line -transmission">
 					<div class="form-element form-select">
-						<select>
-							<option value="0" disabled selected hidden>Коробка передач</option>
+						<select data-placeholder="Коробка передач">
+							<option></option>
 							<option value="">Механическая</option>
 						</select>
 					</div>
@@ -595,6 +596,7 @@
 </div>
 	</div>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/jquery.form-styler/jquery.formstyler.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>

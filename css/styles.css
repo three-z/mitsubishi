@@ -216,6 +216,53 @@ h1 {
   overflow: hidden;
 }
 
+.form .form-select .jq-selectbox {
+  display: block !important;
+}
+
+.form .form-select .jq-selectbox__select {
+  height: 44px;
+  display: block;
+  color: #000;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 1px solid #000;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  outline: none;
+}
+
+.form .form-select .jq-selectbox__select-text {
+  line-height: 44px;
+  font-family: "dindisplay-regular", Arial, sans-serif;
+  font-size: 16px;
+}
+
+.form .form-select .jq-selectbox__trigger {
+  width: 20px;
+  border: none;
+}
+
+.form .form-select .jq-selectbox__trigger-arrow {
+  top: 20px;
+  right: 10px;
+}
+
+.form .form-select .jq-selectbox__dropdown {
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+  font-family: "dindisplay-regular", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form .form-select .jq-selectbox .placeholder {
+  color: #999;
+}
+
 .service {
   margin-top: 28px;
 }
@@ -264,7 +311,6 @@ h1 {
 .service-params {
   margin-top: 4px;
   margin-bottom: 25px;
-  overflow: hidden;
 }
 
 .service-params .form {
@@ -699,7 +745,6 @@ h1 {
 
 .service-form {
   margin-top: 8px;
-  overflow: hidden;
 }
 
 .service-form .form {
