@@ -7,7 +7,6 @@ $(document).ready(function() {
 
 		$(this).closest('li').addClass('active').siblings().removeClass('active');
 		$($(this).attr('href')).addClass('active').siblings().removeClass('active');
-		$('.service-price').show();
 	});
 
 	$('.service-select-list a').on('click', function(e) {

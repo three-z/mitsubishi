@@ -321,7 +321,7 @@ h1 {
 
 .service-select {
 	margin-top: 18px;
-	margin-bottom: 48px;
+	margin-bottom: 35px;
 }
 
 .service-select-tabs {
@@ -553,24 +553,6 @@ h1 {
 				}
 			}
 		}
-	}
-}
-
-.service-price {
-	display: none;
-	margin-top: 51px;
-	color: #212121;
-	font-family: $heading-font-family;
-	font-size: 24px;
-	font-weight: 400;
-	border-bottom: 1px dotted #000;
-	padding-bottom: 9px;
-
-	strong {
-		color: #ED1C24;
-		font-size: 24px;
-		font-weight: normal;
-		white-space: nowrap;
 	}
 }
 

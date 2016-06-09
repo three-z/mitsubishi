@@ -388,7 +388,7 @@ h1 {
 
 .service-select {
   margin-top: 18px;
-  margin-bottom: 48px;
+  margin-bottom: 35px;
 }
 
 .service-select-tabs ul {
@@ -723,24 +723,6 @@ h1 {
 
 .service-select-list ul li.active a span:last-child {
   display: none;
-}
-
-.service-price {
-  display: none;
-  margin-top: 51px;
-  color: #212121;
-  font-family: "alphaheadlineregular", Arial, sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  border-bottom: 1px dotted #000;
-  padding-bottom: 9px;
-}
-
-.service-price strong {
-  color: #ED1C24;
-  font-size: 24px;
-  font-weight: normal;
-  white-space: nowrap;
 }
 
 .service-form {
